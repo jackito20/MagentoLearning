@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Colcomercio_Holamundo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Colcomercio_Holamundo>
+    </modules>
+</config>

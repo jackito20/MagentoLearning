@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <holamundo_index_index>
+        <reference name="content">
+            <block type="brainsins_holamundo/holamundo" name="holamundo" />
+        </reference>
+    </holamundo_index_index>
+
+    <holamundo_index_saludar>
+        <reference name="content">
+            <block type="brainsins_holamundo/holamundo" name="holamundo" template="holamundo/holamundo.phtml"/>
+        </reference>
+    </holamundo_index_saludar>
+</layout>

@@ -1,0 +1,129 @@
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : XML declaration allowed only at the start of the document  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Couldn't find end of Start Tag class line 43  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:01+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : XML declaration allowed only at the start of the document  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Couldn't find end of Start Tag class line 43  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:51+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : XML declaration allowed only at the start of the document  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Couldn't find end of Start Tag class line 43  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : XML declaration allowed only at the start of the document  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 43: parser error : Couldn't find end of Start Tag class line 43  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:15:56+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : Couldn't find end of Start Tag class line 23  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:24+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : Couldn't find end of Start Tag class line 23  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:25+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : Couldn't find end of Start Tag class line 23  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:26+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : Couldn't find end of Start Tag class line 23  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:31+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : Couldn't find end of Start Tag class line 23  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:32+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 23: parser error : Couldn't find end of Start Tag class line 23  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:19:36+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : Couldn't find end of Start Tag class line 22  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:21:47+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : Couldn't find end of Start Tag class line 22  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:32+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : error parsing attribute name  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : attributes construct error  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : Couldn't find end of Start Tag class line 22  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510

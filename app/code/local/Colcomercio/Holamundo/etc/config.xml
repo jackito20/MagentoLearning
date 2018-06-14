@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Colcomercio_Holamundo>
+            <version>0.0.1</version>
+        </Colcomercio_Holamundo>
+    </modules>
+    <frontend>
+        <routers>
+            <colcomercio_holamundo>
+                <use>standard</use>
+                <args>
+                    <module>Colcomercio_Holamundo</module>
+                    <frontName>colcomercio</frontName>
+                </args>
+            </colcomercio_holamundo>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <colcomercio_holamundo>
+                <class>Colcomercio_Holamundo_Model</class>
+            </colcomercio_holamundo>
+        </models>
+    </global>
+</config>

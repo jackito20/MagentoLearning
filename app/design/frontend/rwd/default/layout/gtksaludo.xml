@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <gtk_test_index_index>
+        <reference name="content">
+            <block type="gtk_block/saludogtk" name="gtk_block_saludogtk"/>
+        </reference>
+    </gtk_test_index_index>
+
+    <gtk_test_index_saludar>
+        <reference name="content">
+            <block type="gtk_block/saludogtk" name="gtk_block_saludogtk" template="gtksaludo/gtksaludo.phtml"/>
+        </reference>
+    </gtk_test_index_saludar>
+</layout>

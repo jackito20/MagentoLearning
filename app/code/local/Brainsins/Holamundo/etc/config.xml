@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Brainsins_Holamundo>
+            <version>0.1.0</version>
+        </Brainsins_Holamundo>
+    </modules>
+  <global>
+  <blocks>
+            <brainsins_holamundo>
+                <class>Brainsins_Holamundo_Block</class>
+            </brainsins_holamundo>
+        </blocks>
+        <models>
+            <brainsins_holamundo>
+                <class>Brainsins_Holamundo_Model</class>
+            </brainsins_holamundo>
+        </models>
+    </global>
+    <frontend>
+        <routers>
+            <brainsins_holamundo>
+                <use>standard</use>
+                <args>
+                    <module>Brainsins_Holamundo</module>
+                    <frontName>holamundo</frontName>
+                </args>
+            </brainsins_holamundo>
+        </routers>
+    </frontend>
+</config>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gtk_Test>
+            <version>0.0.1</version>
+        </Gtk_Test>
+    </modules>
+    <global>
+        <blocks>
+            <gtk_block>
+                <class>Gtk_Test_Block</class>
+            </gtk_block>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <gtk_test>
+                <use>standard</use>
+                <args>
+                    <module>Gtk_Test</module>
+                    <frontName>gtk</frontName>
+                </args>
+            </gtk_test>
+        </routers>
+        <layout>
+            <updates>
+                <gtk_test>
+                    <file>gtksaludo.xml</file>
+                </gtk_test>
+            </updates>
+        </layout>
+    </frontend>
+</config>
