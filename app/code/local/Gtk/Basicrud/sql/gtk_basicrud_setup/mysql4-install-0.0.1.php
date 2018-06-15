@@ -1,0 +1,40 @@
+<?php
+echo 'Running This Upgrade: '.get_class($this)."\n <br /> \n";
+//die("Exit for now");
+
+/*$installer = $this;
+$installer->startSetup();
+$installer->run("
+    CREATE TABLE `{$installer->getTable('weblog/blogpost')}` (
+      `blogpost_id` int(11) NOT NULL auto_increment,
+      `title` text,
+      `post` text,
+      `date` datetime default NULL,
+      `timestamp` timestamp NOT NULL default CURRENT_TIMESTAMP,
+      PRIMARY KEY  (`blogpost_id`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+    INSERT INTO `{$installer->getTable('weblog/blogpost')}` VALUES (1,'My New Title','This is a blog post','2009-07-01 00:00:00','2009-07-02 23:12:30');
+");
+$installer->endSetup();*/
+
+$installer = $this;
+$installer->startSetup();
+$table = $installer->getConnection()->newTable($installer->getTable('gtk_basicrud/product'))
+    ->addColumn('product_id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
+        'unsigned' => true,
+        'nullable' => false,
+        'primary' => true,
+        'identity' => true,
+        ), 'Product ID')
+    ->addColumn('name', Varien_Db_Ddl_Table::TYPE_TEXT, null, array(
+        'nullable' => false,
+        ), 'Product Name')
+    ->addColumn('price', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
+        'unsigned' => true,
+        'nullable' => true,
+        ), 'Product Body')
+    ->setComment('Gtk basicrud/product entity table');
+$installer->getConnection()->createTable($table);
+
+$installer->endSetup();
