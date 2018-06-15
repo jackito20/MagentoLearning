@@ -127,3 +127,11 @@
 2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : Couldn't find end of Start Tag class line 22  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
 2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                 &lt;class&amp;gt;Brainsins_Holamundo_Model&amp;lt;/class&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
 2018-06-12T21:22:38+00:00 ERR (3): Warning: simplexml_load_string():                       ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-06-15T16:50:56+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] C:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:365
+[5] C:\xampp\htdocs\magento\app\Mage.php:684
+[6] C:\xampp\htdocs\magento\index.php:83
+</pre>
