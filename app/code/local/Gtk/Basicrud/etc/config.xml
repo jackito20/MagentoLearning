@@ -28,6 +28,11 @@
                 </setup>
             </gtk_basicrud_setup>
         </resources>
+        <blocks>
+            <gtk_basicrud_block>
+                <class>Gtk_Basicrud_Block</class>
+            </gtk_basicrud_block>
+        </blocks>
     </global>
     <frontend>
         <routers>
@@ -39,5 +44,12 @@
                 </args>
             </gtk_basicrud>
         </routers>
+        <layout>
+            <updates>
+                <gtk_basicrud>
+                    <file>gtkbasicrud.xml</file>
+                </gtk_basicrud>
+            </updates>
+        </layout>
     </frontend>
 </config>

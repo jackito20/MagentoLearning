@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.0.1">
+    <gtk_basicrud_product_showall>
+        <reference name="content">
+            <block type="gtk_basicrud_block/product" name="gtk_basicrud_block_product" template="gtk/basicrud/productPage.phtml"/>
+        </reference>
+    </gtk_basicrud_product_showall>
+    <gtk_basicrud_product_createnewproduct>
+        <reference name="content">
+            <block type="gtk_basicrud_block/productCreateNew" name="gtk_basicrud_block_product" template="gtk/basicrud/productCreate.phtml"/>
+        </reference>
+    </gtk_basicrud_product_createnewproduct>
+</layout>

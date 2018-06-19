@@ -4,6 +4,8 @@ class Gtk_Basicrud_ProductController extends Mage_Core_Controller_Front_Action {
  
     public function testAction() {
         echo "‘Hola Mundo!’";
+        $this->loadLayout();
+        $this->renderLayout();
     }
     
     public function showOneProductAction(){
@@ -15,22 +17,24 @@ class Gtk_Basicrud_ProductController extends Mage_Core_Controller_Front_Action {
         var_dump($data);
     }
 
-    public function showAllProductsAction() {
-        $products = Mage::getModel('gtk_basicrud/product')->getCollection();
-        foreach($products as $pro){
-            echo '<h3>'.$pro->getName().'</h3>';
-            echo nl2br($pro->getPrice());
-        }
-        //var_dump($products);
+    public function showAllAction() {
+        $this->loadLayout();
+        $this->renderLayout();
     }
 
     public function createNewProductAction() {
+        $this->loadLayout();
+        $this->renderLayout();
+    }
+
+    public function saveProductAction() {
         $params = $this->getRequest()->getParams();
         $product = Mage::getModel('gtk_basicrud/product');
         $product->setName($params['productName']);
         $product->setPrice($params['productPrice']);
         $product->save();
-        echo 'product with ID ' . $product->getId() . ' created';
+        //echo 'product with ID ' . $product->getId() . ' created';
+        $this->_redirect('basicrud/product/showAll');
     }
     
 

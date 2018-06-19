@@ -1,0 +1,9 @@
+<h1>Product List</h1>
+<?php
+    echo $this->getProductList();
+?>
+<div align="center">
+    <form action="<?php echo Mage::getUrl('basicrud/product/createNewProduct') ?>">
+        <input type="submit" value="New Product" />
+    </form>
+</div>
