@@ -159,3 +159,4 @@
 [5] C:\xampp\htdocs\magento\app\Mage.php:684
 [6] C:\xampp\htdocs\magento\index.php:83
 </pre>
+2018-06-20T18:42:05+00:00 CRIT (2): Not valid template file:adminhtml\base\default\template\films/afficher.phtml
