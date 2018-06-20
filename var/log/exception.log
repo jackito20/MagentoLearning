@@ -92,3 +92,67 @@ Stack trace:
 #21 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
 #22 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
 #23 {main}
+2018-06-20T15:40:04+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Adminhtml_Block_Adminhtml_Pro_Grid' in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('adminhtml/admin...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\Widget\Grid\Container.php(66): Mage_Core_Model_Layout->createBlock('adminhtml/admin...', 'adminhtml_pro.g...')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Block\Abstract.php(293): Mage_Adminhtml_Block_Widget_Grid_Container->_prepareLayout()
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\magento\app\code\local\Crud\Pro\controllers\Adminhtml\ProController.php(15): Mage_Core_Model_Layout->createBlock('pro/adminhtml_p...')
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Crud_Pro_Adminhtml_ProController->indexAction()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2018-06-20T16:01:48+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Crud_Pro_Block_Edit' in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('pro/edit/adminh...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\Widget\Grid\Container.php(66): Mage_Core_Model_Layout->createBlock('pro/edit/adminh...', 'adminhtml_pro.g...')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Block\Abstract.php(293): Mage_Adminhtml_Block_Widget_Grid_Container->_prepareLayout()
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\magento\app\code\local\Crud\Pro\controllers\Adminhtml\ProController.php(15): Mage_Core_Model_Layout->createBlock('pro/adminhtml_p...')
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Crud_Pro_Adminhtml_ProController->indexAction()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2018-06-20T16:02:50+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Pro1_Block_Adminhtml_Pro_Grid' in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('pro1/adminhtml_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\Widget\Grid\Container.php(66): Mage_Core_Model_Layout->createBlock('pro1/adminhtml_...', 'adminhtml_pro.g...')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Block\Abstract.php(293): Mage_Adminhtml_Block_Widget_Grid_Container->_prepareLayout()
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\magento\app\code\local\Crud\Pro\controllers\Adminhtml\ProController.php(15): Mage_Core_Model_Layout->createBlock('pro/adminhtml_p...')
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Crud_Pro_Adminhtml_ProController->indexAction()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
+2018-06-20T16:03:54+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Pro1_Block_Adminhtml_Pro_Grid' in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('pro1/adminhtml_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\Widget\Grid\Container.php(66): Mage_Core_Model_Layout->createBlock('pro1/adminhtml_...', 'adminhtml_pro.g...')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Block\Abstract.php(293): Mage_Adminhtml_Block_Widget_Grid_Container->_prepareLayout()
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 C:\xampp\htdocs\magento\app\code\local\Crud\Pro\controllers\Adminhtml\ProController.php(15): Mage_Core_Model_Layout->createBlock('pro/adminhtml_p...')
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Crud_Pro_Adminhtml_ProController->indexAction()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#12 {main}
