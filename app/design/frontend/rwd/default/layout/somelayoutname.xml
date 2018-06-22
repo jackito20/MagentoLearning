@@ -1,0 +1,12 @@
+<layout version="0.1.0">
+     <default>
+          <reference name="content">
+          </reference>
+      </default>
+
+      <somebackname_index_index>
+           <reference name="content">
+                <block type="namespace_modulename/blockname"  name="some_blockname" template="sometemplatename/templatename.phtml" />
+           </reference>
+      </somebackname_index_index>
+</layout>

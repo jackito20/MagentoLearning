@@ -1,0 +1,16 @@
+<form action="<?php echo Mage::getUrl('films/index/save') ?>" method="post">
+  <fieldset>
+    <ul>
+     <li>
+       <label for="nom">Name</label>
+       <input type="text" id="name" name="name" />
+     </li>
+     <li>
+        <input type="submit" value="Enregistrer" />
+    </li>
+  </ul>
+ </fieldset>
+</form>
+<input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+<?php
+echo $this->methodblock();

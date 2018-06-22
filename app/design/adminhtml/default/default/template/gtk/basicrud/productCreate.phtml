@@ -1,0 +1,17 @@
+<form action="<?php echo Mage::getUrl('basicrud/product/saveProduct') ?>" method="post">
+  <fieldset>
+    <ul>
+     <li>
+       <label for="nom">Name</label>
+       <input type="text" id="productName" name="productName" />
+     </li>
+     <li>
+       <label for="pric">Price</label>
+       <input type="text" id="productPrice" name="productPrice" />
+     </li>
+     <li>
+        <input type="submit" value="Create" />
+    </li>
+  </ul>
+ </fieldset>
+</form>

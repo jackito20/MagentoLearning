@@ -15,7 +15,9 @@ class Pfay_Films_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Act
 
     public function editAction()
     {
+        
         $filmsId = $this->getRequest()->getParam('id');
+        //die($filmsId);
         $filmsModel = Mage::getModel('pfay_films/film')->load($filmsId);
         
         if ($filmsModel->getId() || $filmsId == 0)
@@ -54,7 +56,7 @@ class Pfay_Films_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Act
                     $postData = $this->getRequest()->getPost();
                     $filmsModel = Mage::getModel('pfay_films/film');
 
-                if( $this->getRequest()->getParam('id') <= 0 ) {
+                //if( $this->getRequest()->getParam('id') <= 0 ) {
                     $filmsModel->setCreatedTime( Mage::getSingleton('core/date')->gmtDate() );
                     $filmsModel
                     ->addData($postData)
@@ -66,7 +68,8 @@ class Pfay_Films_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Act
                     Mage::getSingleton('adminhtml/session')->setfilmsData(false);
                     $this->_redirect('*/*/');
                     return;
-                }
+                //}
+                
                 
             } catch (Exception $e) {
             

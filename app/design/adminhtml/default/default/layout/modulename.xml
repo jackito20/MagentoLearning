@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<layout>
+  <modulename_adminhtml_index_index>
+     <reference name="content">
+             <!--<block type="pfay_films/monblock"  name="afficher_monbloc" template="pfay_films/afficher.phtml"/>-->
+        <!--<block type="pfay_films/adminhtml_grid" name="films"/>-->
+        <block type="namespace_modulename/blockname"  name="block_modulename" template="sometemplatename/templatename.phtml"/>
+        
+      </reference>
+   </modulename_adminhtml_index_index>
+</layout>

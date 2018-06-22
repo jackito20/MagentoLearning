@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <gtk_basicrud_adminhtml_index_index>
+        <reference name="content">
+            <!--<block type="gtk_basicrud/adminhtml_product"  name="gtk_basicrud_adminhtml_product"/>-->
+            <block type="gtk_basicrud_block/product" name="gtk_basicrud_block_product" template="gtk/basicrud/productPage.phtml"/>
+            
+            <!--<block type="pfay_films/adminhtml_grid" name="films"/>-->
+        </reference>
+    </gtk_basicrud_adminhtml_index_index>
+    <gtk_basicrud_adminhtml_product_createnewproduct>
+        <reference name="content">
+            <block type="gtk_basicrud_block/productCreateNew" name="gtk_basicrud_block_product" template="gtk/basicrud/productCreate.phtml"/>
+        </reference>
+    </gtk_basicrud_adminhtml_product_createnewproduct>
+</layout>

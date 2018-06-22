@@ -52,4 +52,45 @@
             </updates>
         </layout>
     </frontend>
+    <admin>
+        <routers>
+            <gtk_basicrud>
+                <use>admin</use>
+                <args>
+                    <module>Gtk_Basicrud</module>
+                    <frontName>basicrud</frontName>
+                </args>
+            </gtk_basicrud>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <gtk_basicrud>
+                    <file>gtkbasicrud.xml</file>
+                </gtk_basicrud>
+            </updates>
+        </layout>
+        <menu>
+            <gtk_basicrud translate="title" module="adminhtml">
+                <title>GTK</title>
+                <sort_order>99999</sort_order>
+                <children>
+                    <gtk_basicrud_list module="adminhtml">    
+                        
+                            <title>Product List</title>
+                            <action>basicrud/adminhtml_index</action>
+                        
+                    </gtk_basicrud_list>
+                    <gtk_basicrud_create module="adminhtml">   
+                        
+                            <title>Product Create</title>
+                            <!--<action>basicrud/adminhtml_index_createnewproduct</action>-->
+                            <action>basicrud/adminhtml_index</action>
+                        
+                    </gtk_basicrud_create>
+                </children>
+            </gtk_basicrud>
+        </menu>
+    </adminhtml>
 </config>
